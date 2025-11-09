@@ -1,0 +1,109 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / Pacotes
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenv / Pipenv / Poetry / Conda
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+Pipfile.lock
+poetry.lock
+
+# Cache e logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Testes e cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs / Editores
+.vscode/
+.idea/
+.spyproject/
+.ropeproject/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy / pytype / pylance
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Django / Flask / FastAPI
+*.db
+*.sqlite3
+media/
+staticfiles/
+instance/
+*.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Docker / CI
+docker-compose.override.yml
+.env.local
+.env.dev
+.env.prod
+
+# ==========================================
+# Fim do .gitignore
+# ==========================================
