@@ -107,6 +107,8 @@ def query(question, max_turns=5):
     Executa o loop Thought -> Action -> PAUSE -> Observation até o LLM retornar uma Answer
     """
     bot = Agent(client, prompt)
+    # Exibe a pergunta feita ao agente
+    print("Question:", question)
     next_prompt = question
     result = ""
     # Limita o número de iterações para evitar loops infinitos

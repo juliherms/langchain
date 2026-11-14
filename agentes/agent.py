@@ -35,7 +35,7 @@ class Agent:
         # Envia a conversa ao modelo de LLM
         completion = self.client.chat.completions.create(
             model=self.model,
-            temperature=0,
+            temperature=0, # Geralmente utilizado 0 para atividades com agentes(confiabilidade)
             messages=self.messages)
 
         # Retorna a resposta do LLM
